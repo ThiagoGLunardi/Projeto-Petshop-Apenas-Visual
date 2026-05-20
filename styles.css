@@ -1,0 +1,160 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+
+}
+
+.link-header {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+
+}
+
+.link-header:hover {
+    color: #665AE1;
+}
+
+.link-header:active {
+    opacity: 0.3;
+}
+
+.button-header {
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    border: none;
+
+}
+
+.button-header:hover {
+    opacity: 0.75;
+}
+
+.button-header:active {
+    opacity: 0.3;
+}
+
+.logo-img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    line-height: 160px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #848484;
+    max-width: 770px;
+    text-align: justify;
+}
+
+.button-main {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26.02px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #ADFF00;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.button-main:hover {
+    opacity: 0.75;
+}
+
+.button-main:active {
+    opacity: 0.6;
+}
+
+main {
+    display: flex;
+}
+
+@media screen and (max-width: 870px) {
+    header {
+        display: none
+    }
+
+    .logo-img {
+        max-width: 354px;
+        max-height: 317px;
+        display: block;
+        margin: auto;
+        margin-top: 149px;
+    }
+
+    p {
+        display: none;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 1vh;
+        padding: 0px;
+        position: absolute;
+        top: 480px;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .button-main {
+        position: relative;
+        top: -20px;
+    }
+
+}
