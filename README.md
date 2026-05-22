@@ -9,5 +9,5 @@
  -CSS
   <br>
   <br>
-  <img src="https://github.com/ThiagoGLunardi/Projeto-Petshop-Apenas-Visual/blob/master/assests/nos%20cuidamos%20desktop.png?raw=true"> <img src="https://github.com/ThiagoGLunardi/Projeto-Petshop-Apenas-Visual/blob/master/assests/nos%20cuidamos%20mobile.png?raw=true">
+  <img src="https://github.com/ThiagoGLunardi/Projeto-Petshop-Apenas-Visual/blob/master/assests/nos%20cuidamos%20desktop.png?raw=true" width=600px> <img src="https://github.com/ThiagoGLunardi/Projeto-Petshop-Apenas-Visual/blob/master/assests/nos%20cuidamos%20mobile.png?raw=true" width=300px>
   
